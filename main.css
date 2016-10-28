@@ -1,10 +1,9 @@
 body {
 font-family: century gothic;
 }
-#owl-slider .slide {
-    display: block;
-    width: 100%;
-    height: auto;
+.slide {
+width: 100%;
+}
 }
 .about-us__content {
 padding: 40px;
