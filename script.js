@@ -6,14 +6,8 @@ $(document).ready(function () {
         navigation: false, 
         slideSpeed: 300,
         paginationSpeed: 400,
-        singleItem: true,
-        itemsScaleUp: true,
-        autoHeight: true,
-        itemsCustom: [
-                    [768, 1],
-                    [990, 2],
-                    [1200, 3]
-    ]
+        singleItem: true
+      
     });
 
 });
