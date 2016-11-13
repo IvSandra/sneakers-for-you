@@ -6,7 +6,18 @@ $(document).ready(function () {
         navigation: false, 
         slideSpeed: 300,
         paginationSpeed: 400,
-        singleItem: true
+        singleItem: true,
+        responsive: { 
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
       
     });
 
