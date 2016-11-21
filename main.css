@@ -2,9 +2,10 @@ body {
 font-family: century gothic;
 }
 #owl-slider .slide img {
-    display: block;
+    display: inline;
     width: 100%;
     height: auto;
+    margin-top: 70px;
 }
 .icon {
 padding: 20px 0;
