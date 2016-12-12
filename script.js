@@ -1,4 +1,5 @@
-// JavaScript source code
+// Carousel
+
 $(document).ready(function () {
 
     $("#owl-slider").owlCarousel({
@@ -22,3 +23,5 @@ $(document).ready(function () {
     });
 
 });
+
+
