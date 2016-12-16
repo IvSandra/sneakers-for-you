@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="page2.html" />
+   
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -58,16 +58,15 @@
     </nav>
 
     <nav class="breadcrumb">
-        <a class="breadcrumb-item" href="#">Главная</a>
-        <a class="breadcrumb-item" href="#">Мужские</a>
-        <a class="breadcrumb-item" href="#">Nike</a>
+        <a class="breadcrumb-item" href="index.html">Главная</a>
+        <a class="breadcrumb-item" href="index.html">Мужские</a>
+        <a class="breadcrumb-item" href="index.html">Nike</a>
         <span class="breadcrumb-item active">NIKE AIR TRAINER CRUZ RED</span>
     </nav>
 
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sale__item">
-                <h3>NIKE AIR TRAINER CRUZ RED</h3>
                 <div id="owl-slider" class="owl-carousel owl-theme">
                     <div class="slide"><img src="img/NiKe Air Cruz Red/air cruz.jpg" alt="Nike"></div>
                     <div class="slide"><img src="img/NiKe Air Cruz Red/air cruz1.jpg" alt="Nike"></div>
@@ -75,7 +74,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item_info">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item_info">
+                <h3>NIKE AIR TRAINER CRUZ RED</h3>
                 <strong>Бренд:</strong> NIKE<br />
                 <strong>Пол:</strong> Мужские<br />
                 <strong>Назначение:</strong> Для бега, аэробики<br />
@@ -85,7 +85,7 @@
                 <strong>Вес:</strong> 550 гр.<br />
                 <strong>Страна-производитель:</strong> Вьетнам<br />
 
-                <strong>Размер: </strong><select id="size" onchange="addtocart();">
+                <strong>Размер: </strong><select>
                     <option value="39">39</option>
                     <option value="40">40</option>
                     <option value="41">41</option>
@@ -93,7 +93,7 @@
                     <option value="43">43</option>
                     <option value="44">44</option>
                 </select>
-                <strong>Количество: </strong><select id="quantity" onchange="addtocart();">
+                <strong>Количество: </strong><select>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -101,13 +101,26 @@
                     <option value="5">5</option>
                 </select><br />
 
-                <strong>Цена: </strong><span id="price">4 990 руб.</span><br />
+                <strong>Цена: </strong><span>4 990 руб.</span><br />
 
                 <button type="button" class="btn-1">Добавить в корзину</button>
-                
             </div>
+        
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 form-cart">
+       
+        <h3>NIKE AIR TRAINER CRUZ RED</h3>
+        <strong>Размер: </strong> <span class="result" id="size"></span><br>
+        <strong>Количество: </strong> <span class="result" id="quantity"></span><br>
+        <strong>Цена: </strong> <span class="result" id="sprice"></span><br>
+        <strong>Итого: </strong> <span class="result" id="total"></span><br>   
+
+        <button type="button" class="btn-2"> Продолжить покупки</button>
+
         </div>
+
     </div>
+  </div>
+    
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

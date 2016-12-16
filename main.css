@@ -112,14 +112,19 @@ color: #808080;
 }
 .item_info {
 text-align: left;
-margin-left:30px;
-margin-top:162px;
+margin-top: 82px;
+margin-left: 40px;
 }
-
+.btn-1 {
+margin-top: 20px;
+}
+.btn-2 {
+margin-top: 40px;
+}
 .form-cart {
-        width: 150px;
-        height: 100%;
-        background: aqua;
-        position: absolute;
-        right: -150px;
-    }
+width: 300px;
+height: 100%;
+background: #808080;
+position: absolute;
+right: -300px;
+}
