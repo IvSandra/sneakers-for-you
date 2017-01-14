@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NIKE AIR TRAINER CRUZ RED</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Sneakers for you</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Мужские<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Adidas</a></li>
+                        <li><a href="#">Nike</a></li>
+                        <li><a href="#">New Balance</a></li>
+                        <li><a href="#">Converse</a></li>
+                        <li><a href="#">Reebok</a></li>
+                        <li><a href="#">Puma</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Женские<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Adidas</a></li>
+                        <li><a href="#">Nike</a></li>
+                        <li><a href="#">New Balance</a></li>
+                        <li><a href="#">Converse</a></li>
+                        <li><a href="#">Reebok</a></li>
+                        <li><a href="#">Puma</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Что ищем?">
+                </div>
+                <button type="submit" class="btn btn-default">Поиск</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="index.html">Главная</a>
+        <a class="breadcrumb-item" href="index.html">Мужские</a>
+        <a class="breadcrumb-item" href="index.html">Nike</a>
+        <span class="breadcrumb-item active">NEW BALANCE 574 ЖЕНСКИЕ</span>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sale__item">
+                <div id="owl-slider" class="owl-carousel owl-theme">
+                    <div class="slide"><img src="img/NEW BALANCE 574/new balance.jpg" alt="Nike"></div>
+                    <div class="slide"><img src="img/NEW BALANCE 574/new balance1.jpg" alt="Nike"></div>
+                    <div class="slide"><img src="img/NEW BALANCE 574/new balance2.jpg" alt="Nike"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 item_info">
+                <h3>NEW BALANCE 574 ЖЕНСКИЕ</h3>
+                <strong>Бренд:</strong><h3>New Balance</h3><br />
+                <strong>Пол:</strong> Женские<br />
+                <strong>Назначение:</strong> Теннис, для бега, туризм, аэробика<br />
+                <strong>Особенности:</strong> Замшевые<br />
+                <strong>Цвет: </strong><select>
+                    <option value="Розовый">Розовый</option>
+                    <option value="Зеленый">Зеленый</option>
+                    <option value="Разноцветный">Разноцветный</option>
+                </select> <br />
+                <strong>Материал:</strong> Замша, нейлон<br />
+                <strong>Вес:</strong> 500 гр.<br />
+                <strong>Страна-производитель:</strong> Вьетнам<br />
+
+                <strong>Размер: </strong><select>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select>
+                <strong>Количество: </strong><select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br />
+
+                <strong>Цена: </strong><span>4 990 руб.</span><br />
+
+                <button type="button" class="btn-1">Добавить в корзину</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 form-cart">
+
+                <h3>NEW BALANCE 574 ЖЕНСКИЕ</h3>
+                <strong>Размер: </strong> <span class="result" id="size"></span><br>
+                <strong>Количество: </strong> <span class="result" id="quantity"></span><br>
+                <strong>Цена: </strong> <span class="result" id="sprice"></span><br>
+                <strong>Итого: </strong> <span class="result" id="total"></span><br>
+
+                <button type="button" class="btn-2"> Продолжить покупки</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
